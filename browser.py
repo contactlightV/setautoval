@@ -6,7 +6,6 @@ import time
 import random
 import os
 import urllib
-#para audio del captcha
 import pydub
 import speech_recognition as sr
 
