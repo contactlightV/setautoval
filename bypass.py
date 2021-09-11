@@ -62,6 +62,5 @@ def bypass():
     driver.find_element_by_id("audio-response").send_keys(Keys.ENTER)
     driver.switch_to.default_content()
     delay()
-
-    def switch_frames():
-        driver.switch_to.default_content()
+    driver.find_element_by_id("recaptcha-demo-submit").click()
+    delay()
